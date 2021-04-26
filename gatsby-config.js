@@ -35,14 +35,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-offline",
-    {
-       resolve: 'gatsby-plugin-offline',
-       options: {
-          workboxConfig: {
-             globPatterns: ["static/my-logo-4.png"]
-          }
-       }
-    },
     "gatsby-plugin-react-helmet",
   ],
 }
